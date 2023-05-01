@@ -5,7 +5,7 @@ import { useGetUsersQuery } from './usersApiSlice'
 import { memo } from 'react'
 
 const User = ({ userId }) => {
-    
+
     const { user } = useGetUsersQuery("usersList", {
         selectFromResult: ({ data }) => ({
             user: data?.entities[userId]
@@ -40,4 +40,5 @@ const User = ({ userId }) => {
 }
 
 const memoizedUser = memo(User)
+
 export default memoizedUser
