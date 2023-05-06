@@ -34,7 +34,6 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            console.log(accessToken)
             const { accessToken } = await login({ username, password }).unwrap()
             dispatch(setCredentials({ accessToken }))
             setUsername('')
