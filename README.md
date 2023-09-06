@@ -1,4 +1,4 @@
-# Application Web MERN - Serveur
+# Application Web MERN - Client
 ## Description du Projet
 L'Application Web MERN est une application à deux niveaux (client et serveur) qui vise à démontrer l'utilisation rapide et efficace de nouvelles technologies dans le domaine du développement web. L'application utilise un ensemble de fonctionnalités avancées, telles que des routes protégées avec React Router, des hooks personnalisés, des rôles d'utilisateurs variés, et une gestion d'authentification et d'autorisation robuste à l'aide de JWT.
 
